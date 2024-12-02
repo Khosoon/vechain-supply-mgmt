@@ -9,7 +9,7 @@ contract SupplyRegistration {
     }
     
     address public admin;
-    uint256 public currentStudentCount;
+    uint256 public currentProductCount;
     
     mapping(address => Product) public products;
     address[] public registeredProducts;
@@ -36,12 +36,12 @@ contract SupplyRegistration {
             isRegistered: true
         });   
         registeredProducts.push(productAddress);
-        currentStudentCount++;
+        currentProductCount++;
         
     }
     
 
-    function getRegisteredStudents() external onlyAdmin view returns (address[] memory) {
+    function getRegisteredProducts() external onlyAdmin view returns (address[] memory) {
         return registeredProducts;
     }
     
