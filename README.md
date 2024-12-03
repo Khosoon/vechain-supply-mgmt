@@ -85,28 +85,6 @@ or a log like this, that means the contracts are already deployed (if you run th
   yarn contracts:deploy
 ```
 
-or 
-
-Put empty string in the `fiorinoContractAddress` in the `packages/config/local.ts` file:
-
-```typescript
-  fiorinoContractAddress: "",
-```
-
-and then run the `yarn dev` command again.
-
-### Spin down the Solo Network
-
-```bash
-  yarn solo-down
-```
-
-### Clean docker solo network
-
-```bash
-  yarn solo-clean
-```
-
 ## Running on Testnet  🌐
 
 ### Deploy the contracts on the Testnet:
@@ -134,8 +112,3 @@ and then run the `yarn dev` command again.
 ```bash
   yarn dev:mainnet
 ```
-
-
-## Disclaimer ⚠️
-
-This template serves as a foundational starting point and should be thoroughly reviewed and customized to suit your project’s specific requirements. Pay special attention to configurations, security settings, and environment variables to ensure a secure and efficient deployment.
