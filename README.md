@@ -1,8 +1,4 @@
-# React Dapp Template 🚀
-
-This is a simple template of a decentralized application (DApp) built with React, and Solidity. It is designed to help you kickstart your DApp development journey.
-
-This template creates a simple DApp that allows users to interact with an erc20 token contract called *Fiorino*. Users can send and receive tokens, and the contract owner can mint new tokens.
+# Supply Management System
 
 ## Requirements
 
